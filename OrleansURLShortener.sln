@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGen", "CodeGen\CodeGen.csproj", "{D52BFBFF-B2EA-4A75-B0EF-38F047AA119D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Grains", "Grains\Grains.fsproj", "{D89078F8-05D7-4F42-A162-E36B2BE4833D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Server", "Server\Server.fsproj", "{89D55025-78D5-4217-881D-2612A9E5B74F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D52BFBFF-B2EA-4A75-B0EF-38F047AA119D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52BFBFF-B2EA-4A75-B0EF-38F047AA119D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52BFBFF-B2EA-4A75-B0EF-38F047AA119D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52BFBFF-B2EA-4A75-B0EF-38F047AA119D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89078F8-05D7-4F42-A162-E36B2BE4833D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89078F8-05D7-4F42-A162-E36B2BE4833D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89078F8-05D7-4F42-A162-E36B2BE4833D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89078F8-05D7-4F42-A162-E36B2BE4833D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D55025-78D5-4217-881D-2612A9E5B74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D55025-78D5-4217-881D-2612A9E5B74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D55025-78D5-4217-881D-2612A9E5B74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D55025-78D5-4217-881D-2612A9E5B74F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
